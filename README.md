@@ -19,6 +19,8 @@ _A list of my commonly used Git commands_
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
+| `git commit --amend` | Replace the last commit with a combination of the staged changes and the last commit combined |
+| `git rebase [base]` | Rebase the current branch with the specified base (it can be a branch name, tag, reference to a HEAD, or a commit ID) |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
 ### Branching & Merging
@@ -63,3 +65,6 @@ _A list of my commonly used Git commands_
 | `git log --oneline` | View changes (briefly) |
 | `git diff` | Examine the difference between the working directory and the index |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+Refer:
+https://phoenixnap.com/kb/git-commands-cheat-sheet
